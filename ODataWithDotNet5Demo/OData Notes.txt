@@ -1,0 +1,8 @@
+//filter for grades above 100
+localhost:44349/api/students?$filter=grade%20gt%20100
+
+//format name into json format
+localhost:44349/api/students?$select=name
+
+//filter by specific name
+https://localhost:44349/api/students?$filter=name eq 'MM3'
